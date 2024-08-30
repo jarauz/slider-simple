@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  Hello world
+  
+  <div class="slidecontainer">
+    <input type="range" min="1" max="2" value="1.5" step=".1" class="slider" id="myRange1">
+    <p>x: <span id="demo1"></span></p>
+  </div>
+  
+  <div class="slidecontainer">
+    <input type="range" min="1" max="100" value="50" class="slider" id="myRange2">
+    <p>y: <span id="demo2"></span></p>
+  </div>
+
+  </div>
+  <p>Output: <span id="result12"></span></p>
+  </div>
+
+
+    <input type="range" name="ageInputName" id="ageInputId" value="24" min="1" max="110" oninput="ageOutputId.value = ageInputId.value">
+    <output name="ageOutputName" id="ageOutputId">36</output>
+
+
+
+  
+
+  <script src="script.js"></script>
+
+  <!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
